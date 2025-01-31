@@ -1,7 +1,7 @@
 <script lang="ts">
-    let name = '';
-    let email = '';
-    let postcode = '';
+    let name: string = '';
+    let email: string = '';
+    let postcode: string = ''; 
     let isSubmitting = $state(false);
     let submitStatus = $state<'idle' | 'success' | 'error'>('idle');
     
@@ -38,7 +38,8 @@
     <div class="flex flex-col gap-4">
         <input 
             type="text"
-            bind:value={name}
+            bind:value={name} 
+            name="name"
             disabled={isSubmitting}
             class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-xl focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all disabled:opacity-50" 
             placeholder="Your name" 
@@ -47,6 +48,7 @@
         <input 
             type="email"
             bind:value={email}
+            name="email"
             disabled={isSubmitting}
             class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-xl focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all disabled:opacity-50" 
             placeholder="Your email address" 
@@ -55,6 +57,7 @@
         <input 
             type="text"
             bind:value={postcode}
+            name="postcode"
             disabled={isSubmitting}
             class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-xl focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all disabled:opacity-50" 
             placeholder="Your postcode" 
