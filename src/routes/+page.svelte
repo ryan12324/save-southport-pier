@@ -3,11 +3,16 @@
 	import NewsletterSignup from '$lib/components/NewsletterSignup.svelte';
 </script>
 
-<div class="space-y-16">
-	<section class="bg-white dark:bg-gray-900">
-		<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-			<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-blue-900 md:text-5xl lg:text-6xl">Save Southport Pier</h1>
-			<p class="mb-8 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 lg:px-48">
+<div class="space-y-0">
+	<section class="hero-section min-h-screen flex items-center justify-center relative">
+		<div class="absolute top-0 left-0 right-0 z-10 pt-24">
+			<DayCounter />
+		</div>
+		<div class="py-16 px-4 mx-auto max-w-screen-xl text-center relative z-10">
+			<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl animate-fade-in">
+				Save Southport Pier
+			</h1>
+			<p class="mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 lg:px-48 animate-fade-in" style="animation-delay: 0.2s">
 				Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
 			</p>
 			<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
@@ -24,7 +29,7 @@
 		</div>
 	</section>
 
-	<DayCounter />
+	<div class="wave-divider"></div>
 
 	<section class="bg-white rounded-lg shadow-lg overflow-hidden">
 		<div class="p-8">
