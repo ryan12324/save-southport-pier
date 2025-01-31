@@ -9,20 +9,20 @@
 			<DayCounter />
 		</div>
 		<div class="py-16 px-4 mx-auto max-w-screen-xl text-center relative z-10">
-			<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl animate-fade-in">
+			<h1 class="mb-6 text-5xl font-black tracking-tight leading-none text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 md:text-6xl lg:text-7xl animate-fade-in">
 				Save Southport Pier
 			</h1>
-			<p class="mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 lg:px-48 animate-fade-in" style="animation-delay: 0.2s">
+			<p class="mb-12 text-xl font-medium text-blue-100 lg:text-2xl sm:px-16 lg:px-48 animate-fade-in opacity-90" style="animation-delay: 0.2s">
 				Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
 			</p>
 			<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-				<a href="#newsletter" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+				<a href="#newsletter" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-gradient-to-r from-[#180AA1] to-[#3B28C0] hover:from-[#3B28C0] hover:to-[#180AA1] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
 					Join the Campaign
-					<svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+					<svg class="w-5 h-5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
 					</svg>
 				</a>
-				<a href="/history" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
+				<a href="/history" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white/90 rounded-full border-2 border-white/30 hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm">
 					Learn more
 				</a>
 			</div>
@@ -31,8 +31,8 @@
 
 	<div class="wave-divider"></div>
 
-	<section class="bg-white rounded-lg shadow-lg overflow-hidden">
-		<div class="p-8">
+	<section class="bg-gradient-to-b from-white to-gray-50 rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
+		<div class="p-12">
 			<div class="flex flex-col md:flex-row gap-8">
 				<div class="md:w-2/3">
 					<h2 class="text-3xl font-bold text-blue-900 mb-6">The Emergency</h2>

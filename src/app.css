@@ -23,6 +23,7 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  overflow: hidden;
 }
 
 .hero-section::before {
@@ -32,7 +33,24 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(135deg, rgba(22, 13, 81, 0.85), rgba(59, 40, 192, 0.75));
+  mix-blend-mode: multiply;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 50%);
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 /* Wave divider */

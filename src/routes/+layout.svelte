@@ -9,7 +9,7 @@
 </script>
 
 <div class="min-h-screen">
-	<nav class="fixed w-full z-50 bg-blue-900/95 backdrop-blur-sm border-gray-200 px-4 lg:px-6 py-4">
+	<nav class="fixed w-full z-50 bg-gradient-to-r from-[#160D51] to-[#3B28C0] backdrop-blur-sm border-gray-200 px-4 lg:px-6 py-4">
 		<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 			<a href="/" class="flex items-center">
 				<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Save Southport Pier</span>
