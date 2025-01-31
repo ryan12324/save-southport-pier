@@ -18,7 +18,7 @@
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">Latest News</h1>
   
   <div class="max-w-6xl mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
       {#each sortedNewsData as post}
         <article>
           <div class="mb-6">
