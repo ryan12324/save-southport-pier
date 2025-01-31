@@ -1,7 +1,14 @@
 <script lang="ts">
+    import { formatPostcode } from '$lib/utils/postcode';
+    
     let name = $state('');
     let email = $state('');
-    let postcode = $state(''); 
+    let postcode = $state('');
+    
+    function handlePostcodeInput(event: Event) {
+        const input = event.target as HTMLInputElement;
+        postcode = formatPostcode(input.value);
+    }
     let isSubmitting = $state(false);
     let submitStatus = $state<'idle' | 'success' | 'error'>('idle');
     
@@ -59,6 +66,7 @@
             bind:value={postcode}
             name="postcode"
             disabled={isSubmitting}
+            on:input={handlePostcodeInput}
             class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-xl focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all disabled:opacity-50" 
             placeholder="Your postcode" 
             required 
