@@ -17,7 +17,7 @@
           href={supporter.url}
           target="_blank"
           rel="noopener noreferrer"
-          class="block flex-1 min-w-[200px] max-w-[300px] transition-opacity hover:opacity-80"
+          class="block flex-1 min-w-[100px] max-w-[200px] transition-opacity hover:opacity-80"
         >
           <img 
             src={supporter.logo} 
