@@ -17,7 +17,6 @@
     </div>
 {:else}
     <div class="p-8 rounded-lg text-center">
-        <h2 class="text-3xl font-bold text-white mb-2">Pier Closure Counter</h2>
         <div class="text-6xl font-bold text-white mb-2">
             {diffDays}
         </div>
