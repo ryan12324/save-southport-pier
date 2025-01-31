@@ -3,7 +3,7 @@
 	import NewsletterSignup from '$lib/components/NewsletterSignup.svelte';
 </script>
 
-<div class="space-y-0">
+<div class="space-y-32">
 	<section class="hero-section min-h-screen flex items-center justify-center relative">
 		<div class="py-16 px-4 mx-auto max-w-screen-xl text-center relative z-10 mt-20">
 			<h1 class="mb-6 text-5xl font-black tracking-tight leading-none text-white md:text-6xl lg:text-7xl animate-fade-in drop-shadow-lg">
@@ -29,8 +29,6 @@
 			</div>
 		</div>
 	</section>
-
-	<div class="wave-divider"></div>
 
 	<section class="container mx-auto px-4 my-32">
 		<div class="bg-[#160D51]/5 backdrop-blur-sm rounded-3xl overflow-hidden">
