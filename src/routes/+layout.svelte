@@ -98,6 +98,7 @@
 						<li><a href="/" class="text-blue-100 hover:text-white">Home</a></li>
 						<li><a href="/history" class="text-blue-100 hover:text-white">History</a></li>
 						<li><a href="/news" class="text-blue-100 hover:text-white">News</a></li>
+						<li><a href="/privacy" class="text-blue-100 hover:text-white">Privacy Policy</a></li>
 					</ul>
 				</div>
 			</div>

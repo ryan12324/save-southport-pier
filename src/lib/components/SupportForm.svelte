@@ -92,5 +92,9 @@
 </form>
 
 <div class="mt-8 text-center text-blue-200/80 text-sm">
-    <p>By signing, you agree to receive campaign updates via email. We'll never share your details.</p>
+    <p>
+        By signing, you agree to receive campaign updates via email and accept our 
+        <a href="/privacy" class="underline hover:text-white">privacy policy</a>. 
+        We'll never share your details.
+    </p>
 </div>
