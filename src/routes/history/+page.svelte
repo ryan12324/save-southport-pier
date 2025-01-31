@@ -45,34 +45,20 @@
       <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">Surviving the Elements</h2>
         <div class="mb-6">
-          <img 
-            src="/images/pier-1900.jpg" 
-            alt="Southport Pier in the early 1900s" 
-            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
-          />
+            
+            <video src="/images/pier-1899.webm" autoplay loop muted class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"></video>
           <p class="text-sm text-gray-600 italic">Southport Pier in the early 1900s</p>
         </div>
         <p class="text-gray-700 leading-relaxed">
           Like any seaside structure, Southport Pier has faced its share of challenges. Storms and fires in the late 19th and early 20th centuries tested its resilience. The pier has been shortened from its original length, survived World War II (when it housed searchlights to spot enemy aircraft), and faced the threat of demolition in 1990 - saved by a single vote!
         </p>
-      </section>
-
-      <section>
-        <h2 class="text-3xl font-bold text-[#160D51] mb-6">The Famous Pier Tram</h2>
-        <div class="mb-6">
-          <img 
-            src="/images/pier-tram.jpg" 
-            alt="Historical pier tram" 
-            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
-          />
-          <p class="text-sm text-gray-600 italic">The pier tram in its heyday</p>
-        </div>
+      <br>
         <p class="text-gray-700 leading-relaxed">
           From 1864, the pier featured a unique tramway system that became a beloved feature of visits to Southport. The original steam-driven tram was replaced with electric trams in 1905, and later diesel versions kept the service running into the modern era. The final tram service ended in 2015, marking the end of over 150 years of pier transport history.
         </p>
       </section>
 
-      <div class="bg-[#160D51]/5 rounded-xl p-8">
+      <div class="bg-[#160D51]/5 rounded-xl p-8 mt-8">
         <h3 class="text-2xl font-bold text-[#160D51] mb-4">Quick Facts</h3>
         <ul class="list-disc pl-5 space-y-2 text-gray-700">
           <li>Opened: August 2, 1860</li>
