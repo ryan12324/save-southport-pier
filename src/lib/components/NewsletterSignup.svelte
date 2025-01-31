@@ -10,27 +10,22 @@
     }
 </script>
 
-<section class="bg-blue-100 p-8 rounded-lg">
-    <h2 class="text-2xl font-bold text-blue-900 mb-4">Stay Updated</h2>
-    <p class="text-gray-700 mb-4">
-        Sign up for our newsletter to receive updates about the pier's restoration progress and how you can help.
-    </p>
-    
-    <form on:submit={handleSubmit} class="max-w-md">
-        <div class="flex gap-2">
-            <input
+<form on:submit={handleSubmit} class="max-w-xl mx-auto">
+    <div class="flex flex-col sm:flex-row gap-4">
+        <div class="flex-1">
+            <input 
                 type="email"
                 bind:value={email}
-                placeholder="Enter your email"
-                required
-                class="flex-1 p-2 border border-blue-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-full focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all" 
+                placeholder="Enter your email address" 
+                required 
             />
-            <button
-                type="submit"
-                class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
-            >
-                Subscribe
-            </button>
         </div>
-    </form>
-</section>
+        <button 
+            type="submit" 
+            class="px-8 py-4 text-lg font-semibold text-[#160D51] bg-white rounded-full hover:bg-blue-50 focus:ring-4 focus:ring-white/50 focus:outline-none transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+        >
+            Subscribe
+        </button>
+    </div>
+</form>
