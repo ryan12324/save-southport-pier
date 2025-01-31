@@ -27,7 +27,7 @@
 	let isHomePage = $derived($page.url.pathname === '/');
 </script>
 
-<SEO title={derivedTitle as string} />
+<SEO title={pageTitle} />
 
 <div class="min-h-screen">
 	<div class="fixed w-full  z-50">
