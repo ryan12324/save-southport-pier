@@ -53,16 +53,69 @@
         </div>
       </section>
 
-      <div class="bg-[#160D51]/5 rounded-xl p-8">
-        <h3 class="text-2xl font-bold text-[#160D51] mb-4">Quick Facts</h3>
-        <ul class="list-disc pl-5 space-y-2 text-gray-700">
-          <li>Opened: August 2, 1860</li>
-          <li>Length: 1,108 meters (3,635 feet)</li>
-          <li>Construction: First iron pleasure pier in Britain</li>
-          <li>Grade II listed building since 1975</li>
-          <li>Restoration: 2000-2002 (£7.2 million project)</li>
-          <li>Award: National Piers Society "Pier of the Year" 2003</li>
-        </ul>
+      <div class="bg-gradient-to-br from-[#160D51]/5 to-[#160D51]/10 rounded-xl p-8 shadow-lg">
+        <h3 class="text-2xl font-bold text-[#160D51] mb-6 text-center">Quick Facts</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
+            <svg class="w-6 h-6 text-[#160D51] mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <div>
+              <span class="font-semibold text-[#160D51]">Opening Date</span>
+              <p class="text-gray-700">August 2, 1860</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
+            <svg class="w-6 h-6 text-[#160D51] mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+            <div>
+              <span class="font-semibold text-[#160D51]">Length</span>
+              <p class="text-gray-700">1,108 meters (3,635 feet)</p>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
+            <svg class="w-6 h-6 text-[#160D51] mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+            <div>
+              <span class="font-semibold text-[#160D51]">Construction</span>
+              <p class="text-gray-700">First iron pleasure pier in Britain</p>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
+            <svg class="w-6 h-6 text-[#160D51] mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg>
+            <div>
+              <span class="font-semibold text-[#160D51]">Listed Status</span>
+              <p class="text-gray-700">Grade II listed since 1975</p>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
+            <svg class="w-6 h-6 text-[#160D51] mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            <div>
+              <span class="font-semibold text-[#160D51]">Restoration</span>
+              <p class="text-gray-700">2000-2002 (£7.2 million project)</p>
+            </div>
+          </div>
+
+          <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
+            <svg class="w-6 h-6 text-[#160D51] mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
+            <div>
+              <span class="font-semibold text-[#160D51]">Award</span>
+              <p class="text-gray-700">National Piers Society "Pier of the Year" 2003</p>
+            </div>
+          </div>
+        </div>
       </div>
   </div>
 </div>
