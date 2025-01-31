@@ -1,9 +1,9 @@
 <div class="max-w-7xl mx-auto px-4 py-24">
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">The Story of Southport Pier</h1>
   
-  <div class="max-w-4xl mx-auto space-y-16">
-      <section>
-        <h2 class="text-3xl font-bold text-[#160D51] mb-6">A Victorian Marvel</h2>
+  <div class="max-w-4xl mx-auto">
+      <section class="mb-16">
+        <h2 class="text-3xl font-bold text-[#160D51] mb-8">A Victorian Marvel</h2>
         <div class="mb-6">
           <img 
             src="/images/pier-1860.webp" 
@@ -17,8 +17,8 @@
         </p>
       </section>
 
-      <section>
-        <h2 class="text-3xl font-bold text-[#160D51] mb-6">The Golden Age</h2>
+      <section class="mb-16">
+        <h2 class="text-3xl font-bold text-[#160D51] mb-8">The Golden Age</h2>
         <div class="mb-6">
           <img 
             src="/images/pier-divers.jpg" 
@@ -36,8 +36,8 @@
           </p>
         </div>
       </section>
-      <section>
-        <h2 class="text-3xl font-bold text-[#160D51] mb-6">Surviving the Elements</h2>
+      <section class="mb-16">
+        <h2 class="text-3xl font-bold text-[#160D51] mb-8">Surviving the Elements</h2>
         <div class="mb-6">
             
             <video src="/images/pier-1899.webm" autoplay loop muted class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"></video>
