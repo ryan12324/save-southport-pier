@@ -1,6 +1,7 @@
 <script lang="ts">
 	import DayCounter from '$lib/components/DayCounter.svelte';
 	import NewsletterSignup from '$lib/components/NewsletterSignup.svelte';
+	import Supporters from '$lib/components/Supporters.svelte';
 </script>
 
 <div class="space-y-32">
@@ -90,6 +91,10 @@
 				</div>
 			</div>
 		</div>
+	</section>
+
+	<section class="bg-gray-50">
+		<Supporters />
 	</section>
 
 	<section id="newsletter" class="bg-[#160D51] py-32 relative overflow-hidden">
