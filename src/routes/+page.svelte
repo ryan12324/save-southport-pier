@@ -12,7 +12,7 @@
 			<p class="mb-12 text-xl font-medium text-white lg:text-2xl sm:px-16 lg:px-48 animate-fade-in drop-shadow-md" style="animation-delay: 0.2s">
 				Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
 			</p>
-			<div class="backdrop-blur-lg rounded-2xl p-6  shadow-2xl inline-block mb-8">
+			<div class="backdrop-blur-lg rounded-2xl p-6 shadow-2xl inline-block mb-12">
 				<DayCounter />
 			</div>
 			
@@ -32,7 +32,7 @@
 
 	<div class="wave-divider"></div>
 
-	<section class="container mx-auto px-4 mt-16 mb-16">
+	<section class="container mx-auto px-4 my-32">
 		<div class="bg-[#160D51]/5 backdrop-blur-sm rounded-3xl overflow-hidden">
 			<div class="p-12">
 				<div class="flex flex-col md:flex-row gap-12">
@@ -94,7 +94,7 @@
 		</div>
 	</section>
 
-	<section id="newsletter" class="bg-[#160D51] py-24 relative overflow-hidden">
+	<section id="newsletter" class="bg-[#160D51] py-32 relative overflow-hidden">
 		<div class="absolute inset-0 opacity-10">
 			<div class="absolute inset-0 bg-[url('/images/pier.webp')] bg-cover bg-center"></div>
 		</div>
