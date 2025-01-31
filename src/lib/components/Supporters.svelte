@@ -1,19 +1,9 @@
 <script lang="ts">
   const supporters = [
     {
-      name: "Southport BID",
-      logo: "/images/supporters/southport-bid.png",
-      url: "https://southportbid.com"
-    },
-    {
-      name: "Stand Up For Southport",
-      logo: "/images/supporters/stand-up-for-southport.png",
-      url: "https://standforsouthport.com"
-    },
-    {
-      name: "Southport Heritage",
-      logo: "/images/supporters/southport-heritage.png",
-      url: "https://southportheritage.org"
+      name: "Eye on Southport",
+      logo: "/images/supporters/eyeonsouthport.svg",
+      url: "https://eyeonsouthport.co.uk"
     }
   ];
 </script>
@@ -21,7 +11,7 @@
 <div class="py-16 bg-white/80">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold text-center text-[#160D51] mb-12">Supported By</h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center max-w-4xl mx-auto">
+    <div class="flex justify-between gap-8 items-center justify-items-center max-w-4xl mx-auto">
       {#each supporters as supporter}
         <a 
           href={supporter.url}
