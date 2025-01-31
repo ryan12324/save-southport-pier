@@ -6,21 +6,13 @@
 	import { page } from '$app/stores';
 	let isMenuOpen = $state(false);
 
-	let currentPath = $derived($page.url.pathname);
-	let currentTitle = $derived(() => {
-		switch (currentPath) {
-			case '/':
-				return 'Save Southport Pier';
-			case '/history':
-				return 'History - Save Southport Pier';
-			case '/news':
-				return 'News - Save Southport Pier';
-			case '/closure':
-				return 'Closure Information - Save Southport Pier';
-			default:
-				return 'Save Southport Pier';
-		}
-	});
+	let pageTitle = $derived(
+		$page.url.pathname === '/' ? 'Save Southport Pier' :
+		$page.url.pathname === '/history' ? 'History - Save Southport Pier' :
+		$page.url.pathname === '/news' ? 'News - Save Southport Pier' :
+		$page.url.pathname === '/closure' ? 'Closure Information - Save Southport Pier' :
+		'Save Southport Pier'
+	);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -28,7 +20,7 @@
 	let isHomePage = $derived($page.url.pathname === '/');
 </script>
 
-<SEO title={currentTitle} />
+<SEO title={pageTitle} />
 
 <div class="min-h-screen">
 	<div class="fixed w-full  z-50">
