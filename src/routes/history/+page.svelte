@@ -1,8 +1,9 @@
 <div class="max-w-7xl mx-auto px-4 py-24">
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">The Story of Southport Pier</h1>
   
-  <div class="max-w-4xl mx-auto">
-      <section class="mb-16">
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+      <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-8">A Victorian Marvel</h2>
         <div class="mb-6">
           <img 
@@ -17,7 +18,7 @@
         </p>
       </section>
 
-      <section class="mb-16">
+      <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-8">The Golden Age</h2>
         <div class="mb-6">
           <img 
@@ -36,7 +37,7 @@
           </p>
         </div>
       </section>
-      <section class="mb-16">
+      <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-8">Surviving the Elements</h2>
         <div class="mb-6">
             
@@ -52,8 +53,9 @@
           </p>
         </div>
       </section>
+    </div>
 
-      <div class="bg-gradient-to-br from-[#160D51]/5 to-[#160D51]/10 rounded-xl p-8 shadow-lg">
+    <div class="mt-16 bg-gradient-to-br from-[#160D51]/5 to-[#160D51]/10 rounded-xl p-8 shadow-lg">
         <h3 class="text-2xl font-bold text-[#160D51] mb-6 text-center">Quick Facts</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class="flex items-start space-x-4 p-4 bg-white/50 rounded-lg">
