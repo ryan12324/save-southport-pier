@@ -19,7 +19,7 @@ body {
 
 /* Hero section background */
 .hero-section {
-  background-image: url('/images/pier.webp');
+  background-image: url('/images/pier.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
