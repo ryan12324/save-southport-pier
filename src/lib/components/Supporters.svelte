@@ -4,6 +4,11 @@
       name: "Eye on Southport",
       logo: "/images/supporters/eyeonsouthport.svg",
       url: "https://eyeonsouthport.co.uk"
+    },
+    {
+      name: "Britannia IT",
+      logo: "/images/supporters/britannia-it.png",
+      url: "https://britanniait.uk/"
     }
   ];
 </script>
