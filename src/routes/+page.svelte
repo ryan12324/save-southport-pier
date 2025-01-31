@@ -32,49 +32,63 @@
 
 	<div class="wave-divider"></div>
 
-	<section class="container mx-auto px-4 bg-gradient-to-b from-white to-gray-50 rounded-2xl shadow-2xl overflow-hidden border border-gray-100 mt-16 mb-16">
-		<div class="p-12">
-			<div class="flex flex-col md:flex-row gap-8">
-				<div class="md:w-2/3">
-					<h2 class="text-3xl font-bold text-blue-900 mb-6">The Emergency</h2>
-					<div class="prose prose-lg">
-						<p class="text-gray-700 mb-4">
-							Our beloved Southport Pier has been closed due to structural concerns. This iconic Victorian structure,
-							a vital part of our town's heritage and tourism, needs our support now more than ever.
-						</p>
-						<p class="text-gray-700">
-							Join our campaign to ensure the pier's restoration and reopening. Together, we can save this historic
-							landmark for future generations.
-						</p>
+	<section class="container mx-auto px-4 mt-16 mb-16">
+		<div class="bg-[#160D51]/5 backdrop-blur-sm rounded-3xl overflow-hidden">
+			<div class="p-12">
+				<div class="flex flex-col md:flex-row gap-12">
+					<div class="md:w-2/3">
+						<h2 class="text-4xl font-bold text-[#160D51] mb-8">The Emergency</h2>
+						<div class="prose prose-lg max-w-none">
+							<p class="text-gray-600 mb-6 text-lg leading-relaxed">
+								Our beloved Southport Pier has been closed due to structural concerns. This iconic Victorian structure,
+								a vital part of our town's heritage and tourism, needs our support now more than ever.
+							</p>
+							<p class="text-gray-600 text-lg leading-relaxed">
+								Join our campaign to ensure the pier's restoration and reopening. Together, we can save this historic
+								landmark for future generations.
+							</p>
+						</div>
+						<div class="mt-8">
+							<a href="#newsletter" 
+								class="inline-flex items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-[#180AA1] hover:bg-[#3B28C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+								Support Now
+								<svg class="w-5 h-5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+								</svg>
+							</a>
+						</div>
 					</div>
-					<div class="mt-6">
-						<a href="#newsletter" class="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
-							Support Now
-						</a>
+					<div class="md:w-1/3">
+						<div class="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/20">
+							<h3 class="text-2xl font-bold text-[#160D51] mb-6">Key Facts</h3>
+							<ul class="space-y-6">
+								<li class="flex items-center">
+									<div class="bg-[#160D51]/10 rounded-full p-2 mr-4">
+										<svg class="w-6 h-6 text-[#160D51]" fill="currentColor" viewBox="0 0 20 20">
+											<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+										</svg>
+									</div>
+									<span class="text-lg text-gray-700">Built in 1860</span>
+								</li>
+								<li class="flex items-center">
+									<div class="bg-[#160D51]/10 rounded-full p-2 mr-4">
+										<svg class="w-6 h-6 text-[#160D51]" fill="currentColor" viewBox="0 0 20 20">
+											<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+										</svg>
+									</div>
+									<span class="text-lg text-gray-700">1,108 meters long</span>
+								</li>
+								<li class="flex items-center">
+									<div class="bg-[#160D51]/10 rounded-full p-2 mr-4">
+										<svg class="w-6 h-6 text-[#160D51]" fill="currentColor" viewBox="0 0 20 20">
+											<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+										</svg>
+									</div>
+									<span class="text-lg text-gray-700">Grade II listed</span>
+								</li>
+							</ul>
+						</div>
 					</div>
-				</div>
-				<div class="md:w-1/3 bg-blue-50 p-6 rounded-lg">
-					<h3 class="text-xl font-semibold text-blue-900 mb-4">Key Facts</h3>
-					<ul class="space-y-3">
-						<li class="flex items-center">
-							<svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-								<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-							</svg>
-							Built in 1860
-						</li>
-						<li class="flex items-center">
-							<svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-								<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-							</svg>
-							1,108 meters long
-						</li>
-						<li class="flex items-center">
-							<svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-								<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
-							</svg>
-							Grade II listed
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>
