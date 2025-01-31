@@ -45,7 +45,7 @@
     <h2>Contact Us</h2>
     <p>
       For any privacy-related questions or to exercise your rights, please email us at:
-      <a href="mailto:privacy@savesouthportpier.org" class="text-[#160D51] hover:text-[#3B28C0]">
+      <a href="mailto:privacy@savesouthportpier.co.uk" class="text-[#160D51] hover:text-[#3B28C0]">
         privacy@savesouthportpier.org
       </a>
     </p>
