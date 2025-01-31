@@ -1,12 +1,32 @@
 <script lang="ts">
     let email = '';
+    let isSubmitting = $state(false);
+    let submitStatus = $state<'idle' | 'success' | 'error'>('idle');
     
     async function handleSubmit(event: SubmitEvent) {
         event.preventDefault();
-        // TODO: Implement newsletter signup functionality
-        // For now, just clear the form
-        email = '';
-        alert('Thanks for signing up! We\'ll keep you updated.');
+        isSubmitting = true;
+        submitStatus = 'idle';
+        
+        try {
+            const response = await fetch('http://automation.thebackend.uk/webhook/d5f156be-58de-4f60-beae-22b4f83b480e', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email })
+            });
+            
+            if (!response.ok) throw new Error('Submission failed');
+            
+            email = '';
+            submitStatus = 'success';
+        } catch (error) {
+            console.error('Newsletter signup error:', error);
+            submitStatus = 'error';
+        } finally {
+            isSubmitting = false;
+        }
     }
 </script>
 
@@ -16,16 +36,28 @@
             <input 
                 type="email"
                 bind:value={email}
-                class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-full focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all" 
+                disabled={isSubmitting}
+                class="w-full px-6 py-4 text-lg bg-white/10 border-2 border-white/20 text-white placeholder-blue-200/70 rounded-full focus:ring-4 focus:ring-white/30 focus:border-white/40 focus:outline-none backdrop-blur-sm transition-all disabled:opacity-50" 
                 placeholder="Enter your email address" 
                 required 
             />
         </div>
         <button 
             type="submit" 
-            class="px-8 py-4 text-lg font-semibold text-[#160D51] bg-white rounded-full hover:bg-blue-50 focus:ring-4 focus:ring-white/50 focus:outline-none transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+            disabled={isSubmitting}
+            class="px-8 py-4 text-lg font-semibold text-[#160D51] bg-white rounded-full hover:bg-blue-50 focus:ring-4 focus:ring-white/50 focus:outline-none transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-            Subscribe
+            {#if isSubmitting}
+                Subscribing...
+            {:else}
+                Subscribe
+            {/if}
         </button>
     </div>
+    {#if submitStatus === 'success'}
+        <p class="mt-4 text-green-300 text-center">Thanks for signing up! We'll keep you updated.</p>
+    {/if}
+    {#if submitStatus === 'error'}
+        <p class="mt-4 text-red-300 text-center">Sorry, there was an error. Please try again.</p>
+    {/if}
 </form>
