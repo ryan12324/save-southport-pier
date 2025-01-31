@@ -1,3 +1,18 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* Custom styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add some basic styles for focus states and transitions */
+a, button {
+  @apply transition-colors duration-200;
+}
+
+/* Improve text readability */
+body {
+  @apply antialiased;
+}
