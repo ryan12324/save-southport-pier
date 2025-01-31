@@ -1,10 +1,10 @@
 <div class="max-w-7xl mx-auto px-4 py-24">
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">The Story of Southport Pier</h1>
   
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
     <!-- Column 1 -->
     <div class="space-y-16">
-      <section>
+      <section  class="space-y-16">
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">A Victorian Marvel</h2>
         <div class="mb-6">
           <img 
@@ -19,7 +19,7 @@
         </p>
       </section>
 
-      <section>
+      <section  class="space-y-16">
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">The Golden Age</h2>
         <div class="mb-6">
           <img 
