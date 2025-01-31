@@ -2,15 +2,18 @@
 	import '../app.css';
 	import DayCounter from '$lib/components/DayCounter.svelte';
 	let { children } = $props();
+	import { page } from '$app/stores';
 	let isMenuOpen = $state(false);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
+	$: isHomePage = $page.url.pathname === '/';
 </script>
 
 <div class="min-h-screen">
-	<nav class="fixed w-full z-50 bg-[#160D51]/90 backdrop-blur-md shadow-lg px-4 lg:px-6 py-5">
+	<div class="fixed w-full  z-50">
+	<nav class="w-full z-50 bg-[#160D51]/90 backdrop-blur-md shadow-lg px-4 lg:px-6 py-5">
 		<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 			<a href="/" class="flex items-center group">
 				<span class="self-center text-2xl font-bold whitespace-nowrap text-white group-hover:text-blue-200 transition-colors">
@@ -61,8 +64,8 @@
 	<div class="bg-[#160D51] text-white text-center py-2 px-4 w-full">
 		<DayCounter textColor="text-white" compact={true} />
 	</div>
-
-	<main>
+</div>
+	<main class="py-12">
 		{@render children()}
 	</main>
 
