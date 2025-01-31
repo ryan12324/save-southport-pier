@@ -53,6 +53,26 @@
           </p>
         </div>
       </section>
+
+      <section>
+        <h2 class="text-3xl font-bold text-[#160D51] mb-8">Modern Era</h2>
+        <div class="mb-6">
+          <img 
+            src="/images/pier-modern.jpg" 
+            alt="Southport Pier in recent years" 
+            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
+          />
+          <p class="text-sm text-gray-600 italic">The pier after its 2002 restoration</p>
+        </div>
+        <div class="text-gray-700 leading-relaxed space-y-4">
+          <p>
+            The £7.2 million restoration in 2002 marked a new chapter in the pier's history. The project included a complete overhaul of the structure, a new pavilion, and the introduction of modern amenities while preserving the pier's Victorian character.
+          </p>
+          <p>
+            Recent years have seen the pier continue to adapt and evolve. The modern tram service, café, and penny arcade have made it a popular destination for both locals and tourists. However, the pier faces ongoing challenges from coastal weather and maintenance needs, leading to its current closure and the campaign to secure its future.
+          </p>
+        </div>
+      </section>
     </div>
 
     <div class="mt-16 bg-gradient-to-br from-[#160D51]/5 to-[#160D51]/10 rounded-xl p-8 shadow-lg">
