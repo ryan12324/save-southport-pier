@@ -3,7 +3,7 @@
     import SupporterStats from './SupporterStats.svelte';
 </script>
 
-<section id="support" class="bg-[#160D51] py-32 relative overflow-hidden">
+<section id="petition" class="bg-[#160D51] py-32 relative overflow-hidden">
     <div class="absolute inset-0 opacity-10">
         <div class="absolute inset-0 bg-[url('/images/pier.webp')] bg-cover bg-center"></div>
     </div>
