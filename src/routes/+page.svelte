@@ -59,7 +59,7 @@
 					<div class="md:w-1/3">
 						<div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-[#160D51]/10">
 							<h3 class="text-2xl font-bold text-[#160D51] mb-6">Key Facts</h3>
-							<ul class="space-y-6">
+							<ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
 								<li class="flex items-center">
 									<div class="bg-[#160D51]/10 rounded-full p-2 mr-4">
 										<svg class="w-6 h-6 text-[#160D51]" fill="currentColor" viewBox="0 0 20 20">
