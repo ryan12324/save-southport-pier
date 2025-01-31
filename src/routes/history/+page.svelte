@@ -63,6 +63,5 @@
           <li>Award: National Piers Society "Pier of the Year" 2003</li>
         </ul>
       </div>
-    </div>
   </div>
 </div>
