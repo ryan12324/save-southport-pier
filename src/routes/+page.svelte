@@ -6,14 +6,12 @@
 <div class="space-y-0">
 	<section class="hero-section min-h-screen flex items-center justify-center relative">
 		<div class="py-16 px-4 mx-auto max-w-screen-xl text-center relative z-10 mt-20">
-			<div class="mb-16">
-				<div class="backdrop-blur-md bg-white/10 rounded-2xl p-8 border border-white/20 shadow-2xl inline-block">
-					<DayCounter />
-				</div>
-			</div>
 			<h1 class="mb-6 text-5xl font-black tracking-tight leading-none text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 md:text-6xl lg:text-7xl animate-fade-in">
 				Save Southport Pier
 			</h1>
+			<div class="backdrop-blur-md bg-white/10 rounded-2xl p-6 border border-white/20 shadow-2xl inline-block mb-8">
+				<DayCounter />
+			</div>
 			<p class="mb-12 text-xl font-medium text-blue-100 lg:text-2xl sm:px-16 lg:px-48 animate-fade-in opacity-90" style="animation-delay: 0.2s">
 				Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
 			</p>
