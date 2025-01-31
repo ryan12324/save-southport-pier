@@ -1,15 +1,33 @@
 <script lang="ts">
 	import '../app.css';
 	import DayCounter from '$lib/components/DayCounter.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 	let { children } = $props();
 	import { page } from '$app/stores';
 	let isMenuOpen = $state(false);
+
+	let pageTitle = $derived(() => {
+		switch ($page.url.pathname) {
+			case '/':
+				return 'Save Southport Pier';
+			case '/history':
+				return 'History - Save Southport Pier';
+			case '/news':
+				return 'News - Save Southport Pier';
+			case '/closure':
+				return 'Closure Information - Save Southport Pier';
+			default:
+				return 'Save Southport Pier';
+		}
+	});
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
 	let isHomePage = $derived($page.url.pathname === '/');
 </script>
+
+<SEO title={pageTitle} />
 
 <div class="min-h-screen">
 	<div class="fixed w-full  z-50">
