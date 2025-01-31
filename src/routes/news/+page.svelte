@@ -2,6 +2,9 @@
 <script lang="ts">
   import newsData from '$lib/data/news.json';
   
+  const sortedNewsData = newsData.posts.sort((a,b) => Date.parse(b.date) - Date.parse(a.date))
+
+
   function formatDate(dateString: string) {
     return new Date(dateString).toLocaleDateString('en-GB', {
       year: 'numeric',
@@ -16,7 +19,7 @@
   
   <div class="max-w-6xl mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
-      {#each newsData.posts as post}
+      {#each sortedNewsData as post}
         <article>
           <div class="mb-6">
             <img 
@@ -27,7 +30,7 @@
             <div class="flex justify-between items-center text-sm text-gray-600 italic">
               <p>{formatDate(post.date)}</p>
               <div class="flex items-center gap-4">
-                <p>{post.source}</p>
+                <p>{post.source}</p> &bullet;
                 <p>{post.category}</p>
               </div>
             </div>
