@@ -9,7 +9,7 @@
 </script>
 
 <div class="min-h-screen">
-	<nav class="fixed w-full z-50 bg-gradient-to-r from-[#160D51]/95 to-[#3B28C0]/95 backdrop-blur-md shadow-lg px-4 lg:px-6 py-5">
+	<nav class="fixed w-full z-50 bg-[#160D51]/90 backdrop-blur-md shadow-lg px-4 lg:px-6 py-5">
 		<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 			<a href="/" class="flex items-center group">
 				<span class="self-center text-2xl font-bold whitespace-nowrap text-white group-hover:text-blue-200 transition-colors">

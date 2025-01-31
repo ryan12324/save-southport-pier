@@ -17,7 +17,7 @@
 			</div>
 			
 			<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-				<a href="#newsletter" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-gradient-to-r from-[#180AA1] to-[#3B28C0] hover:from-[#3B28C0] hover:to-[#180AA1] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+				<a href="#newsletter" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-[#180AA1] hover:bg-[#3B28C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
 					Join the Campaign
 					<svg class="w-5 h-5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -80,7 +80,7 @@
 		</div>
 	</section>
 
-	<section id="newsletter" class="bg-gradient-to-br from-[#160D51] to-[#3B28C0] py-24 relative overflow-hidden">
+	<section id="newsletter" class="bg-[#160D51] py-24 relative overflow-hidden">
 		<div class="absolute inset-0 opacity-10">
 			<div class="absolute inset-0 bg-[url('/images/pier.webp')] bg-cover bg-center"></div>
 		</div>
