@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "date": "2024-03-15",
+      "category": "Local News",
+      "title": "Emergency Closure Extended",
+      "excerpt": "The closure of Southport Pier has been extended as engineers continue to assess structural concerns. Council officials announced today that additional surveys are needed before any reopening date can be confirmed.",
+      "image": "/images/pier-closure.jpg",
+      "imageAlt": "Southport Pier closed for repairs",
+      "externalLink": "https://www.southportvisiter.co.uk/"
+    },
+    {
+      "date": "2024-03-10",
+      "category": "Campaign Update",
+      "title": "Community Campaign Launches",
+      "excerpt": "Local residents and business owners have joined forces to launch a campaign to save Southport Pier. The initiative aims to raise awareness and lobby for immediate action to secure the pier's future.",
+      "image": "/images/pier-campaign.jpg",
+      "imageAlt": "Community campaign meeting",
+      "externalLink": "https://www.otsnews.co.uk/"
+    },
+    {
+      "date": "2024-03-05",
+      "category": "Heritage",
+      "title": "Heritage Status Could Help Secure Funding",
+      "excerpt": "Heritage experts suggest that Southport Pier's Grade II listed status could be key to securing additional funding for repairs. Historic England representatives have been invited to assess the structure.",
+      "image": "/images/pier-history.jpg",
+      "imageAlt": "Historical photo of Southport Pier",
+      "externalLink": "https://www.sefton.gov.uk/"
+    },
+    {
+      "date": "2024-03-01",
+      "category": "Development",
+      "title": "Future Plans Unveiled",
+      "excerpt": "Initial plans for the pier's renovation have been revealed, showing a modern vision while preserving its historic character. The proposals include improved accessibility and new visitor facilities.",
+      "image": "/images/pier-future.jpg",
+      "imageAlt": "Architectural plans for pier renovation",
+      "externalLink": "https://www.liverpoolecho.co.uk/"
+    }
+  ]
+}
