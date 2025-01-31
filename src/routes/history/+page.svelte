@@ -2,7 +2,7 @@
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">The Story of Southport Pier</h1>
   
   <div class="max-w-4xl mx-auto space-y-24">
-      <section>
+      <section class="mb-24">
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">A Victorian Marvel</h2>
         <div class="mb-6">
           <img 
@@ -17,7 +17,7 @@
         </p>
       </section>
 
-      <section  class="space-y-16">
+      <section class="mb-24">
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">The Golden Age</h2>
         <div class="mb-6">
           <img 
@@ -36,7 +36,7 @@
           </p>
         </div>
       </section>
-      <section>
+      <section class="mb-24">
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">Surviving the Elements</h2>
         <div class="mb-6">
             
@@ -52,7 +52,7 @@
         </p>
       </section>
 
-      <div class="bg-[#160D51]/5 rounded-xl p-8 mt-8">
+      <div class="bg-[#160D51]/5 rounded-xl p-8">
         <h3 class="text-2xl font-bold text-[#160D51] mb-4">Quick Facts</h3>
         <ul class="list-disc pl-5 space-y-2 text-gray-700">
           <li>Opened: August 2, 1860</li>
