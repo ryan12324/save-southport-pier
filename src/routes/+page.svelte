@@ -80,7 +80,16 @@
 		</div>
 	</section>
 
-	<div id="newsletter">
-		<NewsletterSignup />
-	</div>
+	<section id="newsletter" class="bg-gradient-to-br from-[#160D51] to-[#3B28C0] py-24 relative overflow-hidden">
+		<div class="absolute inset-0 opacity-10">
+			<div class="absolute inset-0 bg-[url('/images/pier.webp')] bg-cover bg-center"></div>
+		</div>
+		<div class="container mx-auto px-4 relative z-10">
+			<div class="max-w-3xl mx-auto text-center">
+				<h2 class="text-4xl font-bold text-white mb-6">Stay Updated</h2>
+				<p class="text-xl text-blue-100 mb-12">Join our campaign to save Southport Pier. Get updates on our progress and learn how you can help.</p>
+				<NewsletterSignup />
+			</div>
+		</div>
+	</section>
 </div>
