@@ -41,7 +41,7 @@
     }
 </script>
 
-<form onsubmit={handleSubmit} class="max-w-xl mx-auto space-y-4">
+<form id="petition" onsubmit={handleSubmit} class="max-w-xl mx-auto space-y-4">
     <div class="flex flex-col gap-4">
         <input 
             type="text"

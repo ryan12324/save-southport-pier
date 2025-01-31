@@ -17,7 +17,7 @@
 			</div>
 			
 			<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-				<a href="#newsletter" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-[#180AA1] hover:bg-[#3B28C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+				<a href="#petition" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-[#180AA1] hover:bg-[#3B28C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
 					Join the Campaign
 					<svg class="w-5 h-5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -47,7 +47,7 @@
 							</p>
 						</div>
 						<div class="mt-8">
-							<a href="#newsletter" 
+							<a href="#petition" 
 								class="inline-flex items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-[#180AA1] hover:bg-[#3B28C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
 								Support Now
 								<svg class="w-5 h-5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
