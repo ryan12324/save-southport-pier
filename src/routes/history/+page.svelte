@@ -2,7 +2,7 @@
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">The Story of Southport Pier</h1>
   
   <div class="max-w-4xl mx-auto space-y-24">
-      <section class="mb-24">
+      <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">A Victorian Marvel</h2>
         <div class="mb-6">
           <img 
@@ -17,7 +17,7 @@
         </p>
       </section>
 
-      <section class="mb-24">
+      <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">The Golden Age</h2>
         <div class="mb-6">
           <img 
@@ -36,7 +36,7 @@
           </p>
         </div>
       </section>
-      <section class="mb-24">
+      <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">Surviving the Elements</h2>
         <div class="mb-6">
             
