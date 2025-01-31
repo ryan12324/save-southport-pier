@@ -8,7 +8,7 @@
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
-	$: isHomePage = $page.url.pathname === '/';
+	let isHomePage = $derived($page.url.pathname === '/');
 </script>
 
 <div class="min-h-screen">
