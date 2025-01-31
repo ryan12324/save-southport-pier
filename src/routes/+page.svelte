@@ -1,30 +1,80 @@
 <script lang="ts">
-	// We'll need to create these components
 	import DayCounter from '$lib/components/DayCounter.svelte';
 	import NewsletterSignup from '$lib/components/NewsletterSignup.svelte';
 </script>
 
-<div class="space-y-12">
-	<section class="text-center">
-		<h1 class="text-4xl font-bold text-blue-900 mb-4">Save Southport Pier</h1>
-		<p class="text-xl text-gray-700 max-w-2xl mx-auto">
-			Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
-		</p>
+<div class="space-y-16">
+	<section class="bg-white dark:bg-gray-900">
+		<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+			<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-blue-900 md:text-5xl lg:text-6xl">Save Southport Pier</h1>
+			<p class="mb-8 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 lg:px-48">
+				Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
+			</p>
+			<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+				<a href="#newsletter" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+					Join the Campaign
+					<svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+					</svg>
+				</a>
+				<a href="/history" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
+					Learn more
+				</a>
+			</div>
+		</div>
 	</section>
 
 	<DayCounter />
 
-	<section class="bg-white p-8 rounded-lg shadow-md">
-		<h2 class="text-2xl font-bold text-blue-900 mb-4">The Emergency</h2>
-		<p class="text-gray-700 mb-4">
-			Our beloved Southport Pier has been closed due to structural concerns. This iconic Victorian structure,
-			a vital part of our town's heritage and tourism, needs our support now more than ever.
-		</p>
-		<p class="text-gray-700">
-			Join our campaign to ensure the pier's restoration and reopening. Together, we can save this historic
-			landmark for future generations.
-		</p>
+	<section class="bg-white rounded-lg shadow-lg overflow-hidden">
+		<div class="p-8">
+			<div class="flex flex-col md:flex-row gap-8">
+				<div class="md:w-2/3">
+					<h2 class="text-3xl font-bold text-blue-900 mb-6">The Emergency</h2>
+					<div class="prose prose-lg">
+						<p class="text-gray-700 mb-4">
+							Our beloved Southport Pier has been closed due to structural concerns. This iconic Victorian structure,
+							a vital part of our town's heritage and tourism, needs our support now more than ever.
+						</p>
+						<p class="text-gray-700">
+							Join our campaign to ensure the pier's restoration and reopening. Together, we can save this historic
+							landmark for future generations.
+						</p>
+					</div>
+					<div class="mt-6">
+						<a href="#newsletter" class="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+							Support Now
+						</a>
+					</div>
+				</div>
+				<div class="md:w-1/3 bg-blue-50 p-6 rounded-lg">
+					<h3 class="text-xl font-semibold text-blue-900 mb-4">Key Facts</h3>
+					<ul class="space-y-3">
+						<li class="flex items-center">
+							<svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+								<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+							</svg>
+							Built in 1860
+						</li>
+						<li class="flex items-center">
+							<svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+								<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+							</svg>
+							1,108 meters long
+						</li>
+						<li class="flex items-center">
+							<svg class="w-4 h-4 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+								<path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+							</svg>
+							Grade II listed
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</section>
 
-	<NewsletterSignup />
+	<div id="newsletter">
+		<NewsletterSignup />
+	</div>
 </div>

@@ -4,24 +4,58 @@
 </script>
 
 <div class="min-h-screen bg-gray-50">
-	<header class="bg-blue-900 text-white p-4">
-		<nav class="container mx-auto flex justify-between items-center">
-			<a href="/" class="text-2xl font-bold">Save Southport Pier</a>
-			<div class="space-x-4">
-				<a href="/" class="hover:text-blue-200">Home</a>
-				<a href="/history" class="hover:text-blue-200">History</a>
-				<a href="/news" class="hover:text-blue-200">News</a>
+	<nav class="bg-blue-900 border-gray-200 px-4 lg:px-6 py-4">
+		<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+			<a href="/" class="flex items-center">
+				<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Save Southport Pier</span>
+			</a>
+			<button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300" aria-controls="mobile-menu" aria-expanded="false">
+				<span class="sr-only">Open main menu</span>
+				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+			</button>
+			<div class="hidden w-full lg:block lg:w-auto" id="mobile-menu">
+				<ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+					<li>
+						<a href="/" class="block py-2 pr-4 pl-3 text-white hover:text-blue-200">Home</a>
+					</li>
+					<li>
+						<a href="/history" class="block py-2 pr-4 pl-3 text-white hover:text-blue-200">History</a>
+					</li>
+					<li>
+						<a href="/news" class="block py-2 pr-4 pl-3 text-white hover:text-blue-200">News</a>
+					</li>
+				</ul>
 			</div>
-		</nav>
-	</header>
+		</div>
+	</nav>
 
 	<main class="container mx-auto px-4 py-8">
 		{@render children()}
 	</main>
 
-	<footer class="bg-blue-900 text-white p-4 mt-8">
-		<div class="container mx-auto text-center">
-			<p>© 2024 Save Southport Pier Campaign</p>
+	<footer class="bg-blue-900 text-white py-8">
+		<div class="container mx-auto px-4">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<div>
+					<h3 class="text-lg font-semibold mb-4">About Us</h3>
+					<p class="text-blue-100">Working to save and restore Southport's historic pier for future generations.</p>
+				</div>
+				<div>
+					<h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+					<ul class="space-y-2">
+						<li><a href="/" class="text-blue-100 hover:text-white">Home</a></li>
+						<li><a href="/history" class="text-blue-100 hover:text-white">History</a></li>
+						<li><a href="/news" class="text-blue-100 hover:text-white">News</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="text-lg font-semibold mb-4">Contact</h3>
+					<p class="text-blue-100">Get in touch to support our campaign</p>
+				</div>
+			</div>
+			<div class="border-t border-blue-800 mt-8 pt-8 text-center">
+				<p class="text-blue-100">© 2024 Save Southport Pier Campaign</p>
+			</div>
 		</div>
 	</footer>
 </div>
