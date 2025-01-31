@@ -106,7 +106,7 @@
 				</div>
 			</div>
 			<div class="border-t border-blue-800 mt-8 pt-8 text-center">
-				<p class="text-blue-100">© 2024 Save Southport Pier Campaign</p>
+				<p class="text-blue-100">© 2025 Save Southport Pier Campaign</p>
 			</div>
 		</div>
 	</footer>
