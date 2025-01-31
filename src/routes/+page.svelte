@@ -57,7 +57,7 @@
 						</div>
 					</div>
 					<div class="md:w-1/3">
-						<div class="bg-white/50 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/20">
+						<div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-[#160D51]/10">
 							<h3 class="text-2xl font-bold text-[#160D51] mb-6">Key Facts</h3>
 							<ul class="space-y-6">
 								<li class="flex items-center">
