@@ -6,7 +6,7 @@
 	import { page } from '$app/stores';
 	let isMenuOpen = $state(false);
 
-	let derivedTitle = $derived(() => {
+	let pageTitle = $derived(() => {
 		switch ($page.url.pathname) {
 			case '/':
 				return 'Save Southport Pier';
