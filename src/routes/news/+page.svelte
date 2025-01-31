@@ -22,11 +22,18 @@
       {#each sortedNewsData as post}
         <article>
           <div class="mb-6">
-            <img 
-              src={post.image}
-              alt={post.imageAlt}
-              class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
-            />
+            <a 
+              href={post.externalLink}
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="block hover:opacity-90 transition-opacity"
+            >
+              <img 
+                src={post.image}
+                alt={post.imageAlt}
+                class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
+              />
+            </a>
             <div class="flex justify-between items-center text-sm text-gray-600 italic">
               <p>{formatDate(post.date)}</p>
               <div class="flex items-center gap-4">
@@ -35,7 +42,14 @@
               </div>
             </div>
           </div>
-          <h2 class="text-3xl font-bold text-[#160D51] mb-4">{post.title}</h2>
+          <a 
+            href={post.externalLink}
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="block hover:text-[#3B28C0] transition-colors"
+          >
+            <h2 class="text-3xl font-bold text-[#160D51] mb-4">{post.title}</h2>
+          </a>
           <div class="text-gray-700 leading-relaxed">
             <p>{post.excerpt}</p>
             <a 
