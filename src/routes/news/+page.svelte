@@ -26,7 +26,10 @@
             />
             <div class="flex justify-between items-center text-sm text-gray-600 italic">
               <p>{formatDate(post.date)}</p>
-              <p>{post.category}</p>
+              <div class="flex items-center gap-4">
+                <p>{post.source}</p>
+                <p>{post.category}</p>
+              </div>
             </div>
           </div>
           <h2 class="text-3xl font-bold text-[#160D51] mb-4">{post.title}</h2>
