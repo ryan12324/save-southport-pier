@@ -6,8 +6,9 @@
 	import { page } from '$app/stores';
 	let isMenuOpen = $state(false);
 
-	let pageTitle = $derived(() => {
-		switch ($page.url.pathname) {
+	let currentPath = $derived($page.url.pathname);
+	let currentTitle = $derived({
+		switch (currentPath) {
 			case '/':
 				return 'Save Southport Pier';
 			case '/history':
@@ -27,7 +28,7 @@
 	let isHomePage = $derived($page.url.pathname === '/');
 </script>
 
-<SEO title={pageTitle} />
+<SEO title={currentTitle} />
 
 <div class="min-h-screen">
 	<div class="fixed w-full  z-50">
