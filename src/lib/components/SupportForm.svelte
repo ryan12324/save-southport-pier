@@ -1,7 +1,7 @@
 <script lang="ts">
-    let name: string = '';
-    let email: string = '';
-    let postcode: string = ''; 
+    let name = $state('');
+    let email = $state('');
+    let postcode = $state(''); 
     let isSubmitting = $state(false);
     let submitStatus = $state<'idle' | 'success' | 'error'>('idle');
     
@@ -34,7 +34,7 @@
     }
 </script>
 
-<form on:submit={handleSubmit} class="max-w-xl mx-auto space-y-4">
+<form onsubmit={handleSubmit} class="max-w-xl mx-auto space-y-4">
     <div class="flex flex-col gap-4">
         <input 
             type="text"
