@@ -20,20 +20,6 @@
 				return 'Save Southport Pier';
 		}
 	});
-	let pageTitle = $derived(derivedTitle);
-		switch ($page.url.pathname) {
-			case '/':
-				return 'Save Southport Pier';
-			case '/history':
-				return 'History - Save Southport Pier';
-			case '/news':
-				return 'News - Save Southport Pier';
-			case '/closure':
-				return 'Closure Information - Save Southport Pier';
-			default:
-				return 'Save Southport Pier';
-		}
-	});
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -41,7 +27,7 @@
 	let isHomePage = $derived($page.url.pathname === '/');
 </script>
 
-<SEO title={pageTitle} />
+<SEO title={derivedTitle as string} />
 
 <div class="min-h-screen">
 	<div class="fixed w-full  z-50">
@@ -52,7 +38,7 @@
 					Save Southport Pier
 				</span>
 			</a>
-			<button on:click={toggleMenu} type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300" aria-controls="mobile-menu" aria-expanded={isMenuOpen}>
+			<button onclick={toggleMenu} type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300" aria-controls="mobile-menu" aria-expanded={isMenuOpen}>
 				<span class="sr-only">Open main menu</span>
 				<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					{#if isMenuOpen}
