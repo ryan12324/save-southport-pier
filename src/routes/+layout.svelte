@@ -2,7 +2,7 @@
 	import '../app.css';
 	import DayCounter from '$lib/components/DayCounter.svelte';
 	let { children } = $props();
-	let isMenuOpen = false;
+	let isMenuOpen = $state(false);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
