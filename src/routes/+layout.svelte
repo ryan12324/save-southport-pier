@@ -7,7 +7,7 @@
 	let isMenuOpen = $state(false);
 
 	let currentPath = $derived($page.url.pathname);
-	let currentTitle = $derived({
+	let currentTitle = $derived(() => {
 		switch (currentPath) {
 			case '/':
 				return 'Save Southport Pier';
