@@ -60,11 +60,11 @@
 			</div>
 		</div>
 	</nav>
-	{!isHomePage && (
+	{#if !isHomePage}
 	<div class="bg-[#160D51] text-white text-center py-2 px-4 w-full">
 		<DayCounter textColor="text-white" compact={true} />
 	</div>
-	)}
+	{/if}
 </div>
 	<main class="py-12">
 		{@render children()}
