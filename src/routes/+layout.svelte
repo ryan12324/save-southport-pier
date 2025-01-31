@@ -100,10 +100,6 @@
 						<li><a href="/news" class="text-blue-100 hover:text-white">News</a></li>
 					</ul>
 				</div>
-				<div>
-					<h3 class="text-lg font-semibold mb-4">Contact</h3>
-					<p class="text-blue-100">Get in touch to support our campaign</p>
-				</div>
 			</div>
 			<div class="border-t border-blue-800 mt-8 pt-8 text-center">
 				<p class="text-blue-100">© 2025 Save Southport Pier Campaign</p>
