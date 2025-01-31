@@ -9,10 +9,12 @@
 </script>
 
 <div class="min-h-screen">
-	<nav class="fixed w-full z-50 bg-gradient-to-r from-[#160D51] to-[#3B28C0] backdrop-blur-sm border-gray-200 px-4 lg:px-6 py-4">
+	<nav class="fixed w-full z-50 bg-gradient-to-r from-[#160D51]/95 to-[#3B28C0]/95 backdrop-blur-md shadow-lg px-4 lg:px-6 py-5">
 		<div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-			<a href="/" class="flex items-center">
-				<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Save Southport Pier</span>
+			<a href="/" class="flex items-center group">
+				<span class="self-center text-2xl font-bold whitespace-nowrap text-white group-hover:text-blue-200 transition-colors">
+					Save Southport Pier
+				</span>
 			</a>
 			<button on:click={toggleMenu} type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-300" aria-controls="mobile-menu" aria-expanded={isMenuOpen}>
 				<span class="sr-only">Open main menu</span>
@@ -27,13 +29,22 @@
 			<div class="{isMenuOpen ? 'block' : 'hidden'} w-full lg:block lg:w-auto transition-all duration-300" id="mobile-menu">
 				<ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
 					<li>
-						<a href="/" class="block py-2 pr-4 pl-3 text-white hover:text-blue-200">Home</a>
+						<a href="/" class="block py-2 pr-4 pl-3 text-white/90 hover:text-white transition-colors relative group">
+							Home
+							<span class="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+						</a>
 					</li>
 					<li>
-						<a href="/history" class="block py-2 pr-4 pl-3 text-white hover:text-blue-200">History</a>
+						<a href="/history" class="block py-2 pr-4 pl-3 text-white/90 hover:text-white transition-colors relative group">
+							History
+							<span class="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+						</a>
 					</li>
 					<li>
-						<a href="/news" class="block py-2 pr-4 pl-3 text-white hover:text-blue-200">News</a>
+						<a href="/news" class="block py-2 pr-4 pl-3 text-white/90 hover:text-white transition-colors relative group">
+							News
+							<span class="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+						</a>
 					</li>
 				</ul>
 			</div>
