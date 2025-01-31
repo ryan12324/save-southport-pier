@@ -10,7 +10,7 @@
           <img 
             src="/images/pier-1860.webp" 
             alt="Southport Pier Opening Ceremony, 1860" 
-            class="rounded-xl shadow-lg w-full mb-4"
+            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
           />
           <p class="text-sm text-gray-600 italic">Opening ceremony of Southport Pier, 1860</p>
         </div>
@@ -25,7 +25,7 @@
           <img 
             src="/images/pier-divers.jpg" 
             alt="Famous pier divers performing their stunts" 
-            class="rounded-xl shadow-lg w-full mb-4"
+            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
           />
           <p class="text-sm text-gray-600 italic">The famous pier divers entertaining crowds</p>
         </div>
@@ -48,7 +48,7 @@
           <img 
             src="/images/pier-1900.jpg" 
             alt="Southport Pier in the early 1900s" 
-            class="rounded-xl shadow-lg w-full mb-4"
+            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
           />
           <p class="text-sm text-gray-600 italic">Southport Pier in the early 1900s</p>
         </div>
@@ -63,7 +63,7 @@
           <img 
             src="/images/pier-tram.jpg" 
             alt="Historical pier tram" 
-            class="rounded-xl shadow-lg w-full mb-4"
+            class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"
           />
           <p class="text-sm text-gray-600 italic">The pier tram in its heyday</p>
         </div>
