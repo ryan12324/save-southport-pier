@@ -142,6 +142,7 @@
         <p>While we appreciate the Council's commitment of £3 million to the pier's restoration, we believe more urgent action is needed. The current funding gap of £10 million threatens the future of this historic structure.</p>
         <p>Our campaign calls for:</p>
         <ul class="list-disc pl-6 space-y-2">
+          <li>Public release of the quote of £13m that the council recieved</li>
           <li>Immediate securing of additional funding from national sources</li>
           <li>A clear timeline for restoration works</li>
           <li>Regular public updates on progress</li>
