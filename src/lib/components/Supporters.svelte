@@ -11,13 +11,13 @@
 <div class="py-16 bg-white/80">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold text-center text-[#160D51] mb-12">Supported By</h2>
-    <div class="flex justify-between gap-8 items-center justify-items-center max-w-4xl mx-auto">
+    <div class="flex flex-wrap justify-around gap-8 items-center max-w-4xl mx-auto">
       {#each supporters as supporter}
         <a 
           href={supporter.url}
           target="_blank"
           rel="noopener noreferrer"
-          class="block w-full max-w-[200px] transition-opacity hover:opacity-80"
+          class="block flex-1 min-w-[200px] max-w-[300px] transition-opacity hover:opacity-80"
         >
           <img 
             src={supporter.logo} 
