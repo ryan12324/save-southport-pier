@@ -1,6 +1,6 @@
 <script lang="ts">
 	import DayCounter from '$lib/components/DayCounter.svelte';
-	import SupportForm from '$lib/components/SupportForm.svelte';
+	import PetitionSection from '$lib/components/PetitionSection.svelte';
 	import Supporters from '$lib/components/Supporters.svelte';
 </script>
 
@@ -97,26 +97,5 @@
 		<Supporters />
 	</section>
 
-	<section id="support" class="bg-[#160D51] py-32 relative overflow-hidden">
-		<div class="absolute inset-0 opacity-10">
-			<div class="absolute inset-0 bg-[url('/images/pier.webp')] bg-cover bg-center"></div>
-		</div>
-		<div class="container mx-auto px-4 relative z-10">
-			<div class="max-w-3xl mx-auto text-center">
-				<h2 class="text-4xl font-bold text-white mb-6">Sign the Petition</h2>
-				<p class="text-xl text-blue-100 mb-12">Add your voice to our campaign. Together we can save Southport Pier for future generations.</p>
-				<SupportForm />
-				<div class="mt-8 flex justify-center items-center gap-8">
-					<div class="text-center">
-						<div class="text-4xl font-bold text-white">1,234</div>
-						<div class="text-blue-200">Supporters</div>
-					</div>
-					<div class="text-center">
-						<div class="text-4xl font-bold text-white">7</div>
-						<div class="text-blue-200">Days to Save the Pier</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<PetitionSection />
 </div>
