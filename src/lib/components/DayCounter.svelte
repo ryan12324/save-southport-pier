@@ -1,5 +1,8 @@
 <script lang="ts">
     // Pier closed on December 8, 2023
+    export let textColor = "text-white"; // Default color
+    export let compact = false; // New prop to control display style
+    
     const closureDate = new Date('2023-12-08');
     
     // Calculate days since closure
@@ -8,10 +11,16 @@
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 </script>
 
-<div class=" p-8 rounded-lg text-center">
-    <h2 class="text-3xl font-bold text-white mb-2">Pier Closure Counter</h2>
-    <div class="text-6xl font-bold text-white mb-2">
-        {diffDays}
+{#if compact}
+    <div class={textColor}>
+        <span class="font-bold">{diffDays} days</span> since Southport Pier closed
     </div>
-    <p class="text-white">Days since Southport Pier closed</p>
-</div>
+{:else}
+    <div class="p-8 rounded-lg text-center">
+        <h2 class="text-3xl font-bold text-white mb-2">Pier Closure Counter</h2>
+        <div class="text-6xl font-bold text-white mb-2">
+            {diffDays}
+        </div>
+        <p class="text-white">Days since Southport Pier closed</p>
+    </div>
+{/if}

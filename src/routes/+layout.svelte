@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import DayCounter from '$lib/components/DayCounter.svelte';
 	let { children } = $props();
 	let isMenuOpen = false;
 
@@ -56,6 +57,10 @@
 			</div>
 		</div>
 	</nav>
+
+	<div class="bg-[#160D51] text-white text-center py-2 px-4">
+		<DayCounter textColor="text-white" compact={true} />
+	</div>
 
 	<main>
 		{@render children()}
