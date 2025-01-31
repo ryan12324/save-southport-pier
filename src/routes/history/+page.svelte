@@ -1,7 +1,7 @@
 <div class="max-w-7xl mx-auto px-4 py-24">
   <h1 class="text-4xl font-bold text-[#160D51] mb-12 text-center">The Story of Southport Pier</h1>
   
-  <div class="max-w-4xl mx-auto space-y-24">
+  <div class="max-w-4xl mx-auto space-y-16">
       <section>
         <h2 class="text-3xl font-bold text-[#160D51] mb-6">A Victorian Marvel</h2>
         <div class="mb-6">
@@ -43,13 +43,14 @@
             <video src="/images/pier-1899.webm" autoplay loop muted class="rounded-xl shadow-lg w-full max-w-2xl mx-auto mb-4 h-[300px] object-cover object-center"></video>
           <p class="text-sm text-gray-600 italic">Southport Pier in the early 1900s</p>
         </div>
-        <p class="text-gray-700 leading-relaxed">
-          Like any seaside structure, Southport Pier has faced its share of challenges. Storms and fires in the late 19th and early 20th centuries tested its resilience. The pier has been shortened from its original length, survived World War II (when it housed searchlights to spot enemy aircraft), and faced the threat of demolition in 1990 - saved by a single vote!
-        </p>
-      <br>
-        <p class="text-gray-700 leading-relaxed">
-          From 1864, the pier featured a unique tramway system that became a beloved feature of visits to Southport. The original steam-driven tram was replaced with electric trams in 1905, and later diesel versions kept the service running into the modern era. The final tram service ended in 2015, marking the end of over 150 years of pier transport history.
-        </p>
+        <div class="text-gray-700 leading-relaxed space-y-4">
+          <p>
+            Like any seaside structure, Southport Pier has faced its share of challenges. Storms and fires in the late 19th and early 20th centuries tested its resilience. The pier has been shortened from its original length, survived World War II (when it housed searchlights to spot enemy aircraft), and faced the threat of demolition in 1990 - saved by a single vote!
+          </p>
+          <p>
+            From 1864, the pier featured a unique tramway system that became a beloved feature of visits to Southport. The original steam-driven tram was replaced with electric trams in 1905, and later diesel versions kept the service running into the modern era. The final tram service ended in 2015, marking the end of over 150 years of pier transport history.
+          </p>
+        </div>
       </section>
 
       <div class="bg-[#160D51]/5 rounded-xl p-8">
