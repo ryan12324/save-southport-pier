@@ -58,7 +58,7 @@
 		</div>
 	</nav>
 
-	<div class="bg-[#160D51] text-white text-center py-2 px-4">
+	<div class="bg-[#160D51] text-white text-center py-2 px-4 w-full">
 		<DayCounter textColor="text-white" compact={true} />
 	</div>
 
