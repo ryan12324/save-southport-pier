@@ -67,7 +67,7 @@
           <ul class="space-y-4">
             <li>
               <a 
-                href="/surveys/southport-pier-decking-report.pdf" 
+                href="https://www.sefton.gov.uk/media/g5zoow41/southport-pier-decking-report.pdf" 
                 class="flex items-center text-[#160D51] hover:text-[#3B28C0] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -80,7 +80,7 @@
             </li>
             <li>
               <a 
-                href="/surveys/steelwork-report-southport-pier.pdf" 
+                href="https://www.sefton.gov.uk/media/41ubijne/steelwork-report-southport-pier.pdf" 
                 class="flex items-center text-[#160D51] hover:text-[#3B28C0] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -93,7 +93,7 @@
             </li>
             <li>
               <a 
-                href="/surveys/pier-defects.pdf" 
+                href="https://www.sefton.gov.uk/media/djkb2ykz/pier-defects.pdf" 
                 class="flex items-center text-[#160D51] hover:text-[#3B28C0] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,7 +106,7 @@
             </li>
             <li>
               <a 
-                href="/surveys/may-2024-southport-pier-final-report.pdf" 
+                href="https://www.sefton.gov.uk/media/seep2jxa/may-2024-southport-pier-final-report-for-sefton-metropolitan-borough-council.pdf" 
                 class="flex items-center text-[#160D51] hover:text-[#3B28C0] transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"

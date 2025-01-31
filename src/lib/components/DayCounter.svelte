@@ -3,7 +3,7 @@
     export let textColor = "text-white"; // Default color
     export let compact = false; // New prop to control display style
     
-    const closureDate = new Date('2023-12-08');
+    const closureDate = new Date('2022-12-08');
     
     // Calculate days since closure
     const today = new Date();

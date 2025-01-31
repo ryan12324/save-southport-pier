@@ -56,17 +56,18 @@
 						</a>
 					</li>
 					<li>
-						<a href="/news" class="block py-2 pr-4 pl-3 text-white/90 hover:text-white transition-colors relative group">
-							News
-							<span class="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
-						</a>
-					</li>
-					<li>
 						<a href="/closure" class="block py-2 pr-4 pl-3 text-white/90 hover:text-white transition-colors relative group">
 							Closure Info
 							<span class="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
 						</a>
 					</li>
+					<li>
+						<a href="/news" class="block py-2 pr-4 pl-3 text-white/90 hover:text-white transition-colors relative group">
+							In The News
+							<span class="absolute bottom-0 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+						</a>
+					</li>
+					
 				</ul>
 			</div>
 		</div>
