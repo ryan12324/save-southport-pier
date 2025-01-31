@@ -3,32 +3,43 @@
   
   <div class="max-w-6xl mx-auto space-y-12">
     <section>
-      <h2 class="text-3xl font-bold text-[#160D51] mb-6">Current Status</h2>
+      <h2 class="text-3xl font-bold text-[#160D51] mb-6">Current Situation</h2>
       <div class="prose prose-lg max-w-none">
-        <p>Southport Pier is currently closed for safety reasons following advice from structural engineers. Extreme weather in December 2022 accelerated issues with the Pier's decking, requiring immediate closure to protect public safety.</p>
-        <p>The Council has received structural surveys that confirm the need for extensive repairs before the Pier can reopen. These surveys highlight issues with both the decking and steelwork that must be addressed.</p>
+        <p>Southport Pier, owned and managed by Sefton Council, has been closed since December 2022. While we understand the Council's need to prioritize public safety, we believe more urgent action is needed to save this vital piece of our heritage.</p>
+        <p>The pier's closure followed structural engineers' advice after extreme weather exacerbated existing issues with the pier's decking. Multiple surveys have since confirmed the need for extensive repairs before the pier can reopen to the public.</p>
       </div>
     </section>
 
     <section>
-      <h2 class="text-3xl font-bold text-[#160D51] mb-6">Key Issues</h2>
+      <h2 class="text-3xl font-bold text-[#160D51] mb-6">Ownership and Responsibility</h2>
+      <div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-[#160D51]/10 mb-8">
+        <h3 class="text-2xl font-bold text-[#160D51] mb-4">The Council's Role</h3>
+        <div class="text-gray-700 space-y-4">
+          <p>Sefton Council has been the custodian of Southport Pier since its construction in 1860. As a Grade II listed structure, the pier requires special consideration and care in its maintenance and restoration.</p>
+          <p>While the Council has committed £3 million to initial repair works, the total cost is estimated at over £13 million. We believe this funding gap needs urgent attention from both local and national government to prevent further deterioration of this historic structure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold text-[#160D51] mb-6">Structural Issues</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-[#160D51]/10">
-          <h3 class="text-2xl font-bold text-[#160D51] mb-4">Structural Concerns</h3>
+          <h3 class="text-2xl font-bold text-[#160D51] mb-4">Current Problems</h3>
           <ul class="space-y-3 text-gray-700">
-            <li>• Severe decay within more than 25% of decking boards</li>
-            <li>• Significant holes and erosion in the Pier's steelwork</li>
-            <li>• Legacy defects from the 2000s refurbishment</li>
-            <li>• More than 14 miles of decking affected</li>
+            <li>• Severe decay affecting 25% of decking boards</li>
+            <li>• Major erosion in critical steelwork sections</li>
+            <li>• Ongoing issues from poor 2000s repairs</li>
+            <li>• Over 14 miles of decking requiring attention</li>
           </ul>
         </div>
         <div class="bg-white/80 p-8 rounded-2xl shadow-lg border border-[#160D51]/10">
-          <h3 class="text-2xl font-bold text-[#160D51] mb-4">Required Works</h3>
+          <h3 class="text-2xl font-bold text-[#160D51] mb-4">Needed Repairs</h3>
           <ul class="space-y-3 text-gray-700">
-            <li>• Extensive repair and replacement of decking</li>
-            <li>• Steelwork repairs and reinforcement</li>
-            <li>• Estimated cost exceeding £13 million</li>
-            <li>• Comprehensive structural rehabilitation</li>
+            <li>• Complete replacement of damaged decking</li>
+            <li>• Major steelwork reinforcement</li>
+            <li>• Modern drainage system installation</li>
+            <li>• Enhanced protection against marine conditions</li>
           </ul>
         </div>
       </div>
@@ -126,8 +137,18 @@
     </section>
 
     <div class="bg-[#160D51]/5 p-8 rounded-2xl">
-      <h3 class="text-2xl font-bold text-[#160D51] mb-4">Looking Forward</h3>
-      <p class="text-gray-700">The Council is actively seeking additional funding to complete the necessary repairs and ensure the Pier's long-term future. While the structure remains closed for safety reasons, work continues behind the scenes to secure its restoration and eventual reopening.</p>
+      <h3 class="text-2xl font-bold text-[#160D51] mb-4">Our Campaign's Position</h3>
+      <div class="text-gray-700 space-y-4">
+        <p>While we appreciate the Council's commitment of £3 million to the pier's restoration, we believe more urgent action is needed. The current funding gap of £10 million threatens the future of this historic structure.</p>
+        <p>Our campaign calls for:</p>
+        <ul class="list-disc pl-6 space-y-2">
+          <li>Immediate securing of additional funding from national sources</li>
+          <li>A clear timeline for restoration works</li>
+          <li>Regular public updates on progress</li>
+          <li>Commitment to long-term maintenance after reopening</li>
+        </ul>
+        <p class="mt-4">Join our campaign to ensure this vital piece of Southport's heritage is preserved for future generations.</p>
+      </div>
     </div>
   </div>
 </div>
