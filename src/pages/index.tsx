@@ -1,7 +1,40 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import Layout from "../components/Layout"
+import DaysCounter from "../components/DaysCounter"
+import FundingStatus from "../components/FundingStatus"
+import NewsletterSignup from "../components/NewsletterSignup"
 
-const pageStyles = {
+const IndexPage: React.FC<PageProps> = () => {
+  return (
+    <Layout>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="md:col-span-2">
+          <DaysCounter />
+          <h1 className="text-4xl font-bold mb-6">Save Southport Pier</h1>
+          <p className="text-xl mb-6">
+            Help us save this historic Victorian pier - an essential part of Southport's heritage and future.
+          </p>
+          <FundingStatus />
+          <div className="prose max-w-none">
+            <h2 className="text-2xl font-bold mb-4">Latest Updates</h2>
+            <p>
+              Current status and recent developments about the campaign to save Southport Pier...
+              {/* Add your latest updates here */}
+            </p>
+          </div>
+        </div>
+        <div className="md:col-span-1">
+          <NewsletterSignup />
+        </div>
+      </div>
+    </Layout>
+  )
+}
+
+export default IndexPage
+
+export const Head: HeadFC = () => <title>Save Southport Pier</title>
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
