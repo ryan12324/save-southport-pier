@@ -1,6 +1,5 @@
 <script lang="ts">
 	import DayCounter from '$lib/components/DayCounter.svelte';
-	import PetitionSection from '$lib/components/PetitionSection.svelte';
 	import Supporters from '$lib/components/Supporters.svelte';
 </script>
 
@@ -96,6 +95,4 @@
 	<section class="bg-gray-50">
 		<Supporters />
 	</section>
-
-	<PetitionSection />
 </div>

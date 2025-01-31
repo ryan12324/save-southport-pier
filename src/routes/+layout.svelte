@@ -2,6 +2,7 @@
 	import '../app.css';
 	import DayCounter from '$lib/components/DayCounter.svelte';
 	import SEO from '$lib/components/SEO.svelte';
+	import PetitionSection from '$lib/components/PetitionSection.svelte';
 	let { children } = $props();
 	import { page } from '$app/stores';
 	let isMenuOpen = $state(false);
@@ -81,6 +82,8 @@
 	<main class="py-12">
 		{@render children()}
 	</main>
+
+	<PetitionSection />
 
 	<footer class="bg-blue-900 text-white py-8">
 		<div class="container mx-auto px-4">
