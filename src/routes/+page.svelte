@@ -5,8 +5,10 @@
 
 <div class="space-y-0">
 	<section class="hero-section min-h-screen flex items-center justify-center relative">
-		<div class="absolute top-0 left-0 right-0 z-10 pt-24">
-			<DayCounter />
+		<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+			<div class="backdrop-blur-md bg-white/10 rounded-2xl p-8 border border-white/20 shadow-2xl">
+				<DayCounter />
+			</div>
 		</div>
 		<div class="py-16 px-4 mx-auto max-w-screen-xl text-center relative z-10">
 			<h1 class="mb-6 text-5xl font-black tracking-tight leading-none text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 md:text-6xl lg:text-7xl animate-fade-in">
@@ -31,7 +33,7 @@
 
 	<div class="wave-divider"></div>
 
-	<section class="bg-gradient-to-b from-white to-gray-50 rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
+	<section class="bg-gradient-to-b from-white to-gray-50 rounded-2xl shadow-2xl overflow-hidden border border-gray-100 mt-16">
 		<div class="p-12">
 			<div class="flex flex-col md:flex-row gap-8">
 				<div class="md:w-2/3">
