@@ -9,12 +9,13 @@
 			<h1 class="mb-6 text-5xl font-black tracking-tight leading-none text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-200 md:text-6xl lg:text-7xl animate-fade-in">
 				Save Southport Pier
 			</h1>
-			<div class="backdrop-blur-md bg-white/10 rounded-2xl p-6 border border-white/20 shadow-2xl inline-block mb-8">
-				<DayCounter />
-			</div>
 			<p class="mb-12 text-xl font-medium text-blue-100 lg:text-2xl sm:px-16 lg:px-48 animate-fade-in opacity-90" style="animation-delay: 0.2s">
 				Help us restore and reopen Southport's historic pier - the second longest pleasure pier in Britain.
 			</p>
+			<div class="backdrop-blur-lg rounded-2xl p-6  shadow-2xl inline-block mb-8">
+				<DayCounter />
+			</div>
+			
 			<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
 				<a href="#newsletter" class="inline-flex justify-center items-center py-4 px-8 text-lg font-semibold text-center text-white rounded-full bg-gradient-to-r from-[#180AA1] to-[#3B28C0] hover:from-[#3B28C0] hover:to-[#180AA1] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
 					Join the Campaign
